@@ -1,8 +1,11 @@
 import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
-import {schemaTypes} from './schemas'
+import user from './schemas/user'
 
+const schemaTypes = [
+  user
+]
 export default defineConfig({
   name: 'default',
   title: 'Share Me',
