@@ -11,7 +11,7 @@ export default defineConfig({
   title: 'Share Me',
 
   projectId: 'fsp1ccb0',
-  dataset: 'development',
+  dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
 
