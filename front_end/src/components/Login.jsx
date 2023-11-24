@@ -7,7 +7,7 @@ import logo from '../assets/logowhite.png'
 
 const Login = () => {
   const responseGoogle = (response) => {
-    
+
   }
   return (
     <div className="flex justify-start items-center flex-col h-sscreen">
@@ -27,7 +27,7 @@ const Login = () => {
           </div>
           <div className="shadow-2xl">
             <GoogleLogin
-              clientId=''
+              clientId={process.env.REACT_APP_GOOGLE_API_TOKEN}
               render={(renderProps) => (
                 <button
                 type="button"
